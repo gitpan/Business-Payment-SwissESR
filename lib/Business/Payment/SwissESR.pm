@@ -54,7 +54,7 @@ use Mojo::Util qw(slurp);
 use Mojo::Base -base;
 use Cwd;
 
-our $VERSION = '0.2.1';
+our $VERSION = '0.3.0';
 
 
 =head2 shiftRightMm
@@ -249,11 +249,11 @@ DOC_END
 ${template}
 % the reference number ... positioning this properly is THE crucial element
 \put(204,18){\makebox[0pt][r]{\ocrb \fontsize{10pt}{16pt}\selectfont ${code}}}
-\put(8,90){\parbox[t]{5cm}{\small ${recipientAddressLaTeX}}}
-\put(63,90){\parbox[t]{8cm}{\small ${recipientAddressLaTeX}}}
+\put(8,90){\parbox[t]{5cm}{\small ${senderAddressLaTeX}}}
+\put(63,90){\parbox[t]{8cm}{\small ${senderAddressLaTeX}}}
 \put(8,41){\tiny ${referenceNumber}}
-\put(8,35){\parbox[t]{5cm}{\small ${senderAddressLaTeX}}}
-\put(127,54){\parbox[t]{7cm}{\small  ${senderAddressLaTeX}}}
+\put(8,35){\parbox[t]{5cm}{\small ${recipientAddressLaTeX}}}
+\put(127,54){\parbox[t]{7cm}{\small  ${recipientAddressLaTeX}}}
 \put(30,61){\small ${account}}
 \put(92,61){\small ${account}}
 \put(200,69.5){\makebox[0pt][r]{\ocrb ${referenceNumber}}}
