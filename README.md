@@ -6,4 +6,5 @@ Business::Payment::SwissESR
 
 A Perl Module to create Swiss ESR invoices.
 
-Note that the module uses lualatex to generate the pdf file!
+Note that the module uses lualatex to generate the pdf file! To get a copy of lualatex install
+TeXLive 2013.
