@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Business-Payment-SwissESR
-version:            0.5.0
+version:            0.5.1
 abstract:           Create PDF invoices according to the Swiss ESR standard
 author:
     - Tobias Oetiker <tobi@oetiker.ch>
